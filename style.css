@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-image: url(cvr.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#main1{
+    background-color: #ffffffe7;
+    border: 1px solid blue;
+    opacity: 0.7;
+    color: black;
+    margin: 0px 500px;
+    width: 350px;
+}
+
+h1{
+    font-size: 4em;
+    font-family: 'Bitter', serif;
+
+}
+
+#main2{
+    color: blue;
+    background-color: rgb(253, 253, 255);
+    width:  1100px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    margin: 50px 130px;
+
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 350px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+
+input[type=password], input[type=text] {
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    color: black;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Bitter', serif;
+}
+.inp{
+    font-size: 20px;
+}
+::placeholder {
+    color: black;
+    font-family: 'Bitter', serif;
+
+}
+
+h2{
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+}
